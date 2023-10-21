@@ -50,11 +50,14 @@ li {
   background-color: #FFE5DA;
 }
 
+.laqua-bg{
+  background-color:  #08D3BB;
+}
 
 
 
 .container {
-  max-width: 83% !important;
+  max-width: 1190px !important;
   display: flex;
   justify-content: center;
   flex-direction: column;
