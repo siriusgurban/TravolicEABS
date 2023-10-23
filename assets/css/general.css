@@ -30,6 +30,14 @@ li {
   color: #5c5c5c;
 }
 
+.grey-us-c{
+  color: #585858;
+}
+
+.purple-c{
+  color:  #2E0D64;
+}
+
 .blue-bg {
   background-color: #E8F4FA;
 }
@@ -64,6 +72,26 @@ li {
 
 .grey-bg{
   background-color: #F4F4F4 !important;
+}
+
+.red-light-bg{
+  background-color: #FFF2F2;
+}
+
+.aqua-light-bg{
+  background-color: #E2F3FF;
+}
+
+.salat-bg{
+  background-color: #F1E8FF;
+}
+
+.salat-light-bg{
+  background-color: #FFE7FB;
+}
+
+.grey-carousel-c{
+  color: #6A6A6A;
 }
 
 

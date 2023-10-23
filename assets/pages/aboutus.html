@@ -9,6 +9,9 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
+    <link rel="stylesheet" href="/assets/js/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/js/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+
     <link rel="icon" type="image/x-icon" href="/assets/icons/travolic.png">
     <title>Travolic</title>
 </head>
@@ -20,7 +23,6 @@
         <div class="d-flex justify-content-between w-100" style="max-width: 1376px">
 
 
-            <!--style="max-width: 1240px"  -->
             <div class="d-flex align-items-center w-50"><a class="text-decoration-none" href="/index.html">
                     <p class="blue-c text-reset fs-2 fw-bold">LOGO</p>
                 </a></div>
@@ -39,7 +41,7 @@
                                 class="position-absolute top-0 start-0 translate-middle " src="/assets/icons/Nav.svg"
                                 alt="circle"><span class="blue-c">About&nbsp;us</span></a>
                     </li>
-            
+
                     <li class="">
                         <a class="text-decoration-none text-reset " href="/assets/pages/services.html">Services</a>
                     </li>
@@ -61,48 +63,53 @@
 
     <!----------------------------Section-Photos--------------------------->
 
-    <section class="section-line "> <!--web-con-->
+    <section class="position-relative" style="margin-bottom: 220px; margin-top: 156px;">
 
-        <div class="aboutus-sec">
+        <div class="d-flex justify-content-center">
 
-            <img class="aboutus-vector1" src="assests/icons/VectorAboutus1.svg" alt="vector">
-            <img class="aboutus-vector2" src="assests/icons/VectorAboutus2.svg" alt="vector">
+            <div class="d-flex flex-column justify-content-center" style="max-width: 1224px; gap: 60px">
+
+                <img class="position-absolute" style="left: 0; top: 55%;" src="/assets/icons/VectorAboutus1.svg"
+                    alt="vector">
+                <img class="position-absolute" style="right: 0; top: -35%;" src="/assets/icons/VectorAboutus2.svg"
+                    alt="vector">
 
 
-            <div class="aboutus-sec1">
-                <div class="aboutus-photo">
-                    <div class="aboutus-photo1-mod"><img class="aboutus-photo1" src="assests/images/Aboutus1.png"
-                            alt="Aboutus"></div>
-                    <img class="aboutus-photo2" src="assests/images/Aboutus2.png" alt="Aboutus">
+                <div class="d-flex justify-content-center" style="gap: 70px;">
+                    <div class="d-flex" style="gap: 50px;">
+                        <div><img class="w-100" src="/assets/images/Aboutus1.png" alt="Aboutus"></div>
+                        <div><img class="w-100" src="/assets/images/Aboutus2.png" alt="Aboutus"></div>
+                    </div>
+                    <div class="d-flex flex-column gap-4 w-50">
+                        <div class="blue-c fs-4">About us</div>
+                        <div class="fw-bolder fs-1 lh-base">Lorem Ipsum is simply dummy text of the printing. </div>
+                        <div class="grey-c w-75 lh-lg">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's</div>
+                    </div>
                 </div>
-                <div class="aboutus-card">
-                    <div class="aboutus-card-title">About us</div>
-                    <div class="aboutus-card-title2">Lorem Ipsum is simply dummy text of the printing. </div>
-                    <div class="aboutus-card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry's</div>
+
+
+                <div class="d-flex justify-content-center" style="gap: 50px;">
+                    <div><img class="w-100" src="/assets/images/Aboutus3.png" alt="Aboutus"></div>
+                    <div><img class="w-100" src="/assets/images/Aboutus4.png" alt="Aboutus"></div>
                 </div>
-            </div>
 
-
-            <div class="aboutus-sec2">
-                <div><img class="aboutus-sec2-photo1" src="assests/images/Aboutus3.png" alt="Aboutus"></div>
-                <div><img class="aboutus-sec2-photo2" src="assests/images/Aboutus4.png" alt="Aboutus"></div>
             </div>
 
         </div>
-
     </section>
 
     <!-- --------------------------ABOUT-US-Lorem--------------------------------->
 
-    <section class="aa">
+    <section style="margin-bottom: 186px;">
         <div class="container">
 
             <div class="aboutus-lorem">
-                <div class="aboutus-lorem-title">
-                    <h2>Lorem Ipsum is simply dummy text of the printing. </h2>
+                <div class="mb-5">
+                    <h1 class="blue-c" style="font-size: 45px; width: 68%;">Lorem Ipsum is simply dummy text of the
+                        printing. </h1>
                 </div>
-                <div class="aboutus-lorem-text">
+                <div class="grey-us-c lh-lg" style="width: 70%;">
                     <p>KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
                         applications and website
                         builders measuring dozens of completed projects. We build and develop mobile applications for
@@ -116,56 +123,128 @@
         </div>
     </section>
 
-    <section class="aa">
-        <div class="container">
 
-            <div class="after">
 
-                <div class="after-left">
+    <section style="margin-bottom: 152px;">
+        <div class="d-flex align-content-start justify-content-center" style="padding-left: 123px;">
 
-                    <div class="after-purple"></div>
-                    <div class="after-lorem">
-                        <div class="after-lorem-title">Lorem Ipsum is simply dummy text of the printing. </div>
-                        <div class="after-lorem-text">KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and
-                            web
-                            applications and website
-                            builders measuring dozens of completed projects.</div>
-                        <div class="after-contactus"><a href="contactus.html">Contact us</a></div>
+            <div class="d-flex justify-content-between w-100" style="gap: 52px; max-width: 1317px;">
+
+                <div class=" " style="width: 41%">
+
+                    <div style="width: 54px; height: 5px; background-color: #4628a4; margin-bottom: 32px;"></div>
+
+                    <div class="d-flex flex-column gap-4">
+                        <div>
+                            <h2 class="lh-lg">Lorem Ipsum is simply dummy text of the printing. </h2>
+                        </div>
+                        <div class="grey-us-c lh-lg" style="font-size: 20px;">
+                            <p>KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and
+                                web
+                                applications and website
+                                builders measuring dozens of completed projects.</p>
+                        </div>
+                        <div class="d-flex justify-content-end"><a
+                                class="btn btn-light ps-5 pe-5 pt-3 pb-3 text-decoration-none align-items-center blue-c"
+                                style="border: 1px solid #1090cb;" href="/assets/pages/contactus.html">Contact us</a>
+                        </div>
                     </div>
-
                 </div>
 
-                <div class="after-right">
+                <div class="d-flex flex-wrap shadow"
+                    style="width: 59%; padding-top: 65px; padding-right: 0; padding-bottom: 35px; padding-left: 61px;">
 
-                    <div class="after-card1">
-                        <div class="after-card">
-                            <div class="after-card-img1"><img src="assests/icons/apps 1.svg" alt="apps"></div>
-                            <div class="after-card-title">Web Application</div>
-                        </div>
-                        <div class="after-card">
-                            <div class="after-card-img3"><img src="assests/icons/startup 1.svg" alt="startup"></div>
-                            <div class="after-card-title">SEO</div>
+
+                    <div class="d-flex gap-4 align-items-center" style="width: 422px; margin-bottom: 55px;">
+                        <div class="red-light-bg rounded-4 position-relative" style="width: 90px; height: 90px; "><img
+                                class="position-absolute" style="top: 29%; left: 29%;" src="/assets/icons/apps 1.svg"
+                                alt="apps"></div>
+                        <div class="purple-c fw-bolder fs-4">
+                            <p>Web Application</p>
                         </div>
                     </div>
 
-                    <div class="after-card2">
-                        <div class="after-card">
-                            <div class="after-card-img2"><img src="assests/icons/coding 1.svg" alt="coding"></div>
-                            <div class="after-card-title">Mobile Applications</div>
-                        </div>
-                        <div class="after-card">
-                            <div class="after-card-img4"><img src="assests/icons/cloud-computing 1.svg"
-                                    alt="cloud-computing">
-                            </div>
-                            <div class="after-card-title">AR/VR</div>
+                    <div class="d-flex gap-4 align-items-center">
+                        <div class="aqua-light-bg rounded-4 position-relative"
+                            style="width: 90px; height: 90px; margin-bottom: 55px;"><img class="position-absolute"
+                                style="top: 29%; left: 29%;" src="/assets/icons/startup 1.svg" alt="startup"></div>
+                        <div class="purple-c fw-bolder fs-4">
+                            <p>SEO</p>
                         </div>
                     </div>
+
+
+                    <div class="d-flex gap-4 align-items-center" style="width: 422px;  margin-bottom: 55px;">
+                        <div class="salat-bg rounded-4 position-relative" style="width: 90px; height: 90px; "><img
+                                class="position-absolute" style="top: 29%; left: 29%;" src="/assets/icons/coding 1.svg"
+                                alt="coding"></div>
+                        <div class="purple-c fw-bolder fs-4">
+                            <p>Mobile Applications</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-4 align-items-center" style=" margin-bottom: 55px;">
+                        <div class="salat-light-bg rounded-4 position-relative" style="width: 90px; height: 90px; "><img
+                                class="position-absolute" style="top: 29%; left: 29%;"
+                                src="/assets/icons/cloud-computing 1.svg" alt="cloud-computing ">
+                        </div>
+                        <div class="purple-c fw-bolder fs-4">
+                            <p>AR/VR</p>
+                        </div>
+                    </div>
+
+
                 </div>
 
             </div>
 
         </div>
+    </section>
 
+
+
+    <!-----------------------------Our-Team---------------------------->
+
+    <section style="height: 660px;">
+        <div class="container">
+
+            <div style="margin-bottom: 70px;">
+                <p class="fw-bolder fs-4">Our Team</p>
+            </div>
+
+            <div class="owl-carousel">
+
+                <div class="item w-100 ms-5 me-5" >
+                    <img src="/assets/images/Rectangle 12.png" alt="">
+
+                    <p class="grey-carousel-c">CEO</p>
+
+                    <p class="fw-bolder">John kabras</p>
+                </div>
+                <div class="item w-100 ms-5 me-5">
+                    <img src="/assets/images/Rectangle 13.png" alt="">
+
+                    <p class="grey-carousel-c">COO</p>
+
+                    <p class="fw-bolder">Philips shene moris</p>
+                </div>
+                <div class="item">
+                    <img src="/assets/images/Rectangle 14.png" alt="">
+
+                    <p class="grey-carousel-c">Tech lead</p>
+
+                    <p class="fw-bolder">Equarn shamir  mohomad</p>
+                </div>
+                <div class="item">
+                    <img src="/assets/images/Rectangle 14.png" alt="">
+
+                    <p class="grey-carousel-c">Head of UX</p>
+
+                    <p class="fw-bolder">Janka indrajith</p>
+                </div>
+            </div>
+
+        </div>
     </section>
 
     <!----------------------------Section-Subscribe---------------------------->
@@ -267,10 +346,16 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+   
 
+        <script src="/assets/js/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+<script src="/assets/js/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+crossorigin="anonymous"></script>
+
+<script src="/assets/js/script.js"></script>
 </body>
 
 </html>
