@@ -34,8 +34,24 @@ li {
   color: #585858;
 }
 
+.grey-lorem-c{
+  color: #545454;
+}
+
 .purple-c{
   color:  #2E0D64;
+}
+
+.grey-carousel-c{
+  color: #6A6A6A;
+}
+
+.grey-our-c{
+  color: #696969;
+}
+
+.grey-web-c{
+  color: #797979;
 }
 
 .blue-bg {
@@ -90,9 +106,7 @@ li {
   background-color: #FFE7FB;
 }
 
-.grey-carousel-c{
-  color: #6A6A6A;
-}
+
 
 
 .container {
