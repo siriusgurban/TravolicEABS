@@ -58,8 +58,12 @@ li {
   color: #424242;;
 }
 
+.grey-form-c{
+  color: #4F4F4F;
+}
+
 .grey-inp-c{
-  color: #727272;;
+  color: #727272 !important;
 }
 
 .blue-bg {
@@ -115,7 +119,7 @@ li {
 }
 
 .grey-inp-bg{
-  background-color: #F1F1F1;
+  background-color: #F1F1F1 !important;
 }
 
 .blue-lorem-bg{
@@ -133,7 +137,10 @@ li {
 
 .lastest-lorem-c:hover{
   color: #FFFFFF !important;
-  
+}
+
+.contactus-bg{
+  background-color: #F5F3DA;
 }
 
 .container {
