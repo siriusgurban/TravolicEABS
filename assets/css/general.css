@@ -58,6 +58,10 @@ li {
   color: #424242;;
 }
 
+.grey-inp-c{
+  color: #727272;;
+}
+
 .blue-bg {
   background-color: #E8F4FA;
 }
@@ -110,8 +114,27 @@ li {
   background-color: #FFE7FB;
 }
 
+.grey-inp-bg{
+  background-color: #F1F1F1;
+}
 
+.blue-lorem-bg{
+  background-color: #E7EFF3;
+}
 
+.lastest-lorem:hover{
+  background-color:  #1090CB;
+  color: #FFFFFF !important;
+}
+
+.lastest-lorem-bg:hover{
+  background-color:  #1090CB;
+}
+
+.lastest-lorem-c:hover{
+  color: #FFFFFF !important;
+  
+}
 
 .container {
   max-width: 1190px !important;
